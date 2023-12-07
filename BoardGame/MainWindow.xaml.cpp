@@ -74,10 +74,10 @@ void winrt::BoardGame::implementation::MainWindow::createBoard(int m, int n, int
     ColumnButtons().RowDefinitions().Clear();
     RowButtons().ColumnDefinitions().Clear();
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < n; i++)
         ColumnButtons().ColumnDefinitions().Append(Controls::ColumnDefinition());
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < m; i++)
         RowButtons().RowDefinitions().Append(Controls::RowDefinition());
 
     for (int i = 0; i < m; i++)
