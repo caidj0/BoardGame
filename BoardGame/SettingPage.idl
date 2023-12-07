@@ -1,0 +1,12 @@
+// Copyright (c) Microsoft Corporation and Contributors.
+// Licensed under the MIT License.
+
+namespace BoardGame
+{
+    [default_interface]
+    runtimeclass SettingPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        SettingPage();
+        Int32 MyProperty;
+    }
+}
